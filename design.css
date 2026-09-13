@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #d9f3e2, #b7dfc5);
+    font-family: Arial, sans-serif;
+}
+
+
+/* Main Counter Box */
+.counter-box {
+    background-color: white;
+    width: 100%;
+    max-width: 450px;
+    padding: 40px 25px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Talia Batool Name */
+.name {
+    color: #198754;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* Counter Circle */
+.counter {
+    width: 190px;
+    height: 190px;
+
+    border-radius: 50%;
+
+    background-color: #198754;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 60px;
+    font-weight: bold;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.20);
+}
+
+
+/* Buttons */
+button {
+    margin: 5px;
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 576px) {
+
+    .counter-box {
+        padding: 30px 15px;
+    }
+
+    .counter {
+        width: 160px;
+        height: 160px;
+        font-size: 50px;
+    }
+
+}
